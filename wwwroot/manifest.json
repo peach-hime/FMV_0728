@@ -1,0 +1,40 @@
+{
+  "name": "FRAM Model Visualiser",
+  "short_name": "FMV",
+  "description": "Using the FUNCTIONAL RESONANCE ANALYSIS METHOD for modelling non-trivial socio-technical systems",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#800000",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "FRAM_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "FRAM_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "FRAM_icon.svg",
+      "sizes": "any",
+      "purpose": "any"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "./",
+      "accept": {
+        "application/xml": [ ".xfmv" ]
+      }
+    }
+  ]
+}

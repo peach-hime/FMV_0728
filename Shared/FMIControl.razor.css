@@ -1,0 +1,80 @@
+﻿.text-FMI {
+    font-size: smaller;
+    color: dimgrey
+}
+.btn-FMI {
+    color: dimgrey;
+    background-color: #F1F3F4;
+    border-color: #F1F3F4;
+    padding-left: 0.375rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+}
+    .btn-FMI:hover {
+        color: dimgrey;
+        background-color: #F1F3F4;
+        border-color: dimgrey;
+    }
+    .btn-FMI:active {
+        color: #fff;
+        background-color: dimgrey;
+    }
+.btn-FMIs {
+    color: dimgrey;
+    background-color: #F1F3F4;
+    border-color: #F1F3F4;
+    padding-left: 0.375rem;
+}
+.btn-FMIp {
+    color: dimgrey;
+    background-color: #F1F3F4;
+    border-color: #F1F3F4;
+    padding-left: 0.5rem;
+    min-width: 2rem;
+    min-height: 2rem;
+    max-height: 2rem;
+}
+    .btn-FMIp:hover {
+        color: dimgrey;
+        background-color: #F1F3F4;
+        border-color: dimgrey;
+    }
+    .btn-FMIp:active {
+        color: #fff;
+        background-color: dimgrey;
+    }
+.fmi-key {
+    text-align: left;
+    border-color: dimgrey;
+    width: 70%;
+    border: 1pt solid dimgrey;
+    border-radius: .25rem;
+    background-color: #F1F3F4;
+    color: dimgrey;
+    font-weight: 600;
+}
+    .fmi-key::placeholder {
+        color: #A1A3A4;
+    }
+    .fmi-key:focus {
+        background-color: rgb(255, 216, 0, 0.5);
+    }
+.fmi-equation {
+    height: 2rem;
+    width: 100%;
+    font-size: smaller;
+    font-family: 'PT Sans Caption', sans-serif;
+}
+.fmi-cycle {
+    height: 2rem;
+    text-align: center;
+    border-color: dimgrey;
+    width: 3rem;
+    border: 1pt solid dimgrey;
+    border-radius: .25rem;
+    background-color: #F1F3F4;
+    color: dimgrey;
+    font-size: smaller;
+    font-family: 'PT Sans Caption', sans-serif;
+}
